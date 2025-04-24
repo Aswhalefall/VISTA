@@ -7,13 +7,13 @@ The **VISTA** (VISibility-uncerTainty-guided 3D Gaussian Inpainting via Scene co
 
 ### Key Features
 ![The framework of VISTA comprises two modules](figs/main.png)
-- Visibility-Uncertainty Measurement: Estimates the visibility confidence of 3D points across multiple input views to optimize inpainting.
+- **Visibility-Uncertainty Measurement**: Estimates the visibility confidence of 3D points across multiple input views to optimize inpainting.
 
-- Scene Conceptual Learning: Uses a diffusion model to synthesize missing content based on a learned concept of the scene without the masked object.
+- **Scene Conceptual Learning**: Uses a diffusion model to synthesize missing content based on a learned concept of the scene without the masked object.
 
-- Handling Dynamic and Static Objects: Effectively removes both static obstructions and dynamic distractors, such as rapidly moving objects.
+- **Handling Dynamic and Static Objects**: Effectively removes both static obstructions and dynamic distractors, such as rapidly moving objects.
 
-- High-Quality 3D Reconstruction: Utilizes 3D Gaussian Splatting (3DGS) to generate artifact-free novel views, improving upon traditional inpainting methods.
+- **High-Quality 3D Reconstruction**: Utilizes 3D Gaussian Splatting (3DGS) to generate artifact-free novel views, improving upon traditional inpainting methods.
 
 ### Visualization of our results
 
